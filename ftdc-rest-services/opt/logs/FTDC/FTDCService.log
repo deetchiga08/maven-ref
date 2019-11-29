@@ -1,0 +1,52 @@
+13:18:04.533 [main] INFO  c.b.FtdcQuestionaireAppApplication - Starting FtdcQuestionaireAppApplication on brillersys with PID 21691 (/home/brillersys/ftdcrestservices/ftdc-rest-services/target/classes started by brillersys in /home/brillersys/ftdcrestservices/ftdc-rest-services)
+13:18:04.536 [main] INFO  c.b.FtdcQuestionaireAppApplication - No active profile set, falling back to default profiles: default
+13:18:13.563 [main] INFO  c.b.FtdcQuestionaireAppApplication - Started FtdcQuestionaireAppApplication in 10.098 seconds (JVM running for 11.139)
+13:18:53.973 [main] INFO  c.b.FtdcQuestionaireAppApplication - Starting FtdcQuestionaireAppApplication on brillersys with PID 21834 (/home/brillersys/ftdcrestservices/ftdc-rest-services/target/classes started by brillersys in /home/brillersys/ftdcrestservices/ftdc-rest-services)
+13:18:53.983 [main] INFO  c.b.FtdcQuestionaireAppApplication - No active profile set, falling back to default profiles: default
+13:19:03.281 [main] INFO  c.b.FtdcQuestionaireAppApplication - Started FtdcQuestionaireAppApplication in 10.246 seconds (JVM running for 11.102)
+13:19:19.148 [http-nio-8080-exec-1] WARN  c.b.config.AuthenticationTokenFilter - couldn't find token, will ignore the header
+13:19:19.149 [http-nio-8080-exec-1] INFO  c.b.config.AuthenticationTokenFilter - checking authentication for user null
+13:19:19.248 [http-nio-8080-exec-1] INFO  com.briller.service.PatientService - successFull Execution of getRegions query in PatientService
+08:12:27.247 [main] INFO  c.b.FtdcQuestionaireAppApplication - Starting FtdcQuestionaireAppApplication on brillersys with PID 3045 (/home/brillersys/ftdc-rest-services/target/classes started by brillersys in /home/brillersys/ftdc-rest-services)
+08:12:27.286 [main] INFO  c.b.FtdcQuestionaireAppApplication - No active profile set, falling back to default profiles: default
+08:12:43.698 [main] INFO  c.b.FtdcQuestionaireAppApplication - Started FtdcQuestionaireAppApplication in 18.381 seconds (JVM running for 20.383)
+08:13:41.091 [http-nio-8080-exec-1] WARN  c.b.config.AuthenticationTokenFilter - couldn't find token, will ignore the header
+08:13:41.092 [http-nio-8080-exec-1] INFO  c.b.config.AuthenticationTokenFilter - checking authentication for user null
+08:13:41.201 [http-nio-8080-exec-1] INFO  com.briller.service.PatientService - successFull Execution of getRegions query in PatientService
+08:14:03.921 [http-nio-8080-exec-2] WARN  c.b.config.AuthenticationTokenFilter - couldn't find token, will ignore the header
+08:14:03.921 [http-nio-8080-exec-2] INFO  c.b.config.AuthenticationTokenFilter - checking authentication for user null
+08:14:12.211 [http-nio-8080-exec-4] WARN  c.b.config.AuthenticationTokenFilter - couldn't find token, will ignore the header
+08:14:12.211 [http-nio-8080-exec-4] INFO  c.b.config.AuthenticationTokenFilter - checking authentication for user null
+08:14:12.233 [SESProcessor] INFO  com.briller.aws.ses.SESProcessor - Amazon SES processor is up and running.
+08:14:12.234 [SESProcessor] INFO  com.briller.aws.ses.SESProcessor - Amazon SES workers are initializing ....
+08:14:12.235 [http-nio-8080-exec-4] INFO  com.briller.aws.ses.SESProcessor - New Amazon SES email added into queue...
+08:14:12.235 [http-nio-8080-exec-4] INFO  c.briller.service.MailSmsServiceImpl - SENT EMAIL: TO=deetchiga@brillersys.com|SUBJECT:Reset Password|TEXT:Ftdc app reset passwordOTP code:224217
+08:14:12.235 [http-nio-8080-exec-4] INFO  c.briller.service.MailSmsServiceImpl - the mail sent successfully in sendResetPassword in MailSmsServiceImpldeetchiga@brillersys.com
+08:14:12.235 [http-nio-8080-exec-4] INFO  com.briller.service.UserService - successFull check of user present in same name and otp generation and sending maildeetchiga@brillersys.com
+08:14:12.244 [SESProcessor] INFO  com.briller.aws.ses.SESWorker - New Amazon SES email added into queue for  worker-1...
+08:14:12.244 [SESProcessor] INFO  com.briller.aws.ses.SESProcessor - Waiting for Amazon SES email to send...2019-11-28 21:44:12:244
+08:14:12.392 [SESWorker-1] INFO  com.briller.aws.ses.SESWorker - Amazon SES worker-1 is up and running.
+08:14:13.095 [SESWorker-1] ERROR com.briller.aws.ses.SESWorker - Exception while sending SES email ...Unable to execute HTTP request: email.us-west-2.amazonaws.com
+08:14:13.095 [SESWorker-1] INFO  com.briller.aws.ses.SESWorker - Waiting for Amazon SES to send...2019-11-28 21:44:13:95
+08:17:48.959 [http-nio-8080-exec-5] WARN  c.b.config.AuthenticationTokenFilter - couldn't find token, will ignore the header
+08:17:48.959 [http-nio-8080-exec-5] INFO  c.b.config.AuthenticationTokenFilter - checking authentication for user null
+08:17:48.970 [http-nio-8080-exec-5] INFO  com.briller.aws.ses.SESProcessor - New Amazon SES email added into queue...
+08:17:48.970 [http-nio-8080-exec-5] INFO  c.briller.service.MailSmsServiceImpl - SENT EMAIL: TO=deetchiga@brillersys.com|SUBJECT:Reset Password|TEXT:Ftdc app reset passwordOTP code:581684
+08:17:48.970 [http-nio-8080-exec-5] INFO  c.briller.service.MailSmsServiceImpl - the mail sent successfully in sendResetPassword in MailSmsServiceImpldeetchiga@brillersys.com
+08:17:48.970 [http-nio-8080-exec-5] INFO  com.briller.service.UserService - successFull check of user present in same name and otp generation and sending maildeetchiga@brillersys.com
+08:17:48.970 [SESProcessor] INFO  com.briller.aws.ses.SESWorker - New Amazon SES email added into queue for  worker-1...
+08:17:48.971 [SESProcessor] INFO  com.briller.aws.ses.SESProcessor - Waiting for Amazon SES email to send...2019-11-28 21:47:48:971
+08:17:51.055 [SESWorker-1] INFO  com.briller.aws.ses.SESWorker - Waiting for Amazon SES to send...2019-11-28 21:47:51:55
+08:18:40.784 [http-nio-8080-exec-6] WARN  c.b.config.AuthenticationTokenFilter - couldn't find token, will ignore the header
+08:18:40.785 [http-nio-8080-exec-6] INFO  c.b.config.AuthenticationTokenFilter - checking authentication for user null
+08:18:52.739 [http-nio-8080-exec-7] WARN  c.b.config.AuthenticationTokenFilter - couldn't find token, will ignore the header
+08:18:52.740 [http-nio-8080-exec-7] INFO  c.b.config.AuthenticationTokenFilter - checking authentication for user null
+08:18:53.052 [http-nio-8080-exec-7] INFO  com.briller.aws.ses.SESProcessor - New Amazon SES email added into queue...
+08:18:53.052 [SESProcessor] INFO  com.briller.aws.ses.SESWorker - New Amazon SES email added into queue for  worker-1...
+08:18:53.053 [SESProcessor] INFO  com.briller.aws.ses.SESProcessor - Waiting for Amazon SES email to send...2019-11-28 21:48:53:52
+08:18:53.053 [http-nio-8080-exec-7] INFO  c.briller.service.MailSmsServiceImpl - SENT EMAIL: TO=deetchiga@brillersys.com|SUBJECT:Reset successfull|TEXT:Password Reset successfull
+Please login with your new password:
+
+08:18:53.053 [http-nio-8080-exec-7] INFO  c.briller.service.MailSmsServiceImpl - sent mail successfully in sendResetMail in MailSmsServiceImpldeetchiga@brillersys.com
+08:18:53.053 [http-nio-8080-exec-7] INFO  com.briller.service.UserService - SuccessFull execution of reset password and reset maildeetchiga@brillersys.com
+08:18:55.124 [SESWorker-1] INFO  com.briller.aws.ses.SESWorker - Waiting for Amazon SES to send...2019-11-28 21:48:55:123
